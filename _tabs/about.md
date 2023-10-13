@@ -8,4 +8,4 @@ Heya! My name is ka, and I'm a home-labbing, cybersecurity dabbling, techno prof
 
 This is my docusite slash projectsite slash achievement-bragg-blog. Hopefully I'll have some posts about things you're interested in, things you've not heard of and things unimaginable (an old project running Photon Vcenter on Hyper-V comes to mind...) 
 
-Please feel free to use any documentation for your own where you find it relevant. Cheers!
+Please feel free to use any documentation as your own where you find it relevant. Cheers!
