@@ -18,7 +18,7 @@ timezone: Europe/Stockholm
 
 title: kayw0z pl4yz # the main title
 
-tagline: where I infodump my thoughts and document my mishaps / B.A/GCWN/GCFE/GCFA/GBFA / DFIR ninja /SOC donkey # it will display as the sub-title
+tagline: where I infodump my thoughts and document my mishaps / B.A/GCWN/GCFE/GCFA/GBFA / DFIR ninja / SOC donkey # it will display as the sub-title
 
 description: >- # used by seo meta and the atom feed
   kayw0z_pl4yz is a docusite for home-lab, cybersecurity, random hardware compute projects and other fun stuff. 
