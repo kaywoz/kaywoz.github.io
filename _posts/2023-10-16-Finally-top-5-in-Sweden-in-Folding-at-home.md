@@ -20,7 +20,7 @@ I finally landed on that I needed a dedi server somewhere, and Hostkey fit the b
 
 Well, a couple of weeks until the I've claimed the 4th spot unless something happens. 
 
-![image tooltip here](/assets/images/2023-10-16-Finally-top-5-in-Sweden-in-Folding-at-home/fah.png)
+![image tooltip here](/assets/images/2023-10-16-Finally-top-5-in-Sweden-in-Folding-at-home/fah.PNG)
 
 It will take some time to reach the number 1 slot. And then....? What am I supposed to do after being the number 1 folder in Sweden? Stay there? Re-use the hardware for folding, and other stuff? Downgrade? Move on? I'll see when I get there.
 
