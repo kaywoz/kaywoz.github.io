@@ -6,10 +6,6 @@ tags: [homelab,hardware,software,folding,supercomputing,distributed computing]  
 comments: false
 ---
 
-
-[hyperlink](https://github.com/ms-studio/jekyll-hyperlink-test/)
-
-
 # Intro
 
 I've had this setup running for almost a year now, chugging away to move forward on the Sweclockers-foldingteam, demolishing contributors as I go. This was originally a move to solve that I had become fed up with my sporadic usage of [Google Colaboratory](https://colab.google/) (until the service was changed and any prolonged GPU usage was denied. My testing of [Vast.ai](https://vast.ai) (works but nah) and [runpod.io](https://runpod.io) (more of the same so nah) where stopped after some trial runs) 
