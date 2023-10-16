@@ -6,5 +6,5 @@ tags: [homelab,hardware,software,folding,supercomputing,distributed computing]  
 comments: true
 ---
 
-Hardware: [Dedicated hardware with RTX 4090](https://hostkey.com/gpu-dedicated-servers/dedicated)
+Hardware: Dedicated hardware with RTX 4090
 Operating System: Ubuntu Server 22.04
