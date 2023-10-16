@@ -7,6 +7,7 @@ comments: true
 ---
 
 Hardware:
+
 Operating System: Ubuntu Server 22.04
 
-And [a hyperlink with markdown code](https://github.com/ms-studio/jekyll-hyperlink-test/)
+And [Dedicated hardware with RTX 4090](https://github.com/ms-studio/jekyll-hyperlink-test/)
