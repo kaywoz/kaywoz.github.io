@@ -1,7 +1,9 @@
 ---
-title: Finally top 5 in Sweden in Folding@home
+title: Finally top 5 in Sweden in Folding at home
 date: 2023-10-16 13:00:00 +0100
 categories: [homelab]
 tags: [homelab,hardware,software,folding,supercomputing,distributedcomputing]     # TAG names should always be lowercase
 comments: false
 ---
+
+123
