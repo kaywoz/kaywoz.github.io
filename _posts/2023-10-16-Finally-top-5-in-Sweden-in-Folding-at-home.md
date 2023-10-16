@@ -20,5 +20,6 @@ Well, it appears that I have a couple of more weeks until I've claimed the 4th s
 
 It will take some time to reach the number 1 slot. But what then....? What am I supposed to do after getting to the number 1 folder-slot in Sweden? Stay there? Re-use the hardware for folding, and other stuff? Downgrade? Move on? I'll see when I get there.
 
-Needless to say I need to document the build in the near future and I'll try to make it into a post by itself. 
+Needless to say I need to document the build in the near future and I'll try to make it into a post by itself.
+
 Until then, cheers!
