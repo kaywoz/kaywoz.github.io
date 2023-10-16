@@ -10,4 +10,4 @@ Hardware:
 
 Operating System: Ubuntu Server 22.04
 
-And [Dedicated hardware with RTX 4090](https://github.com/ms-studio/jekyll-hyperlink-test/)
+And [a hyperlink with markdown code](https://hostkey.com/gpu-dedicated-servers/dedicated/)
