@@ -6,9 +6,8 @@ tags: [homelab,hardware,software,folding,supercomputing,distributed computing]  
 comments: true
 ---
 
-Hardware:
+Hardware: 
 
 Operating System: Ubuntu Server 22.04
 
-And [a hyperlink with markdown code](https://hostkey.com/gpu-dedicated-servers/dedicated/)
-
+And [a hyperlink with markdown code](https://github.com/ms-studio/jekyll-hyperlink-test/)
