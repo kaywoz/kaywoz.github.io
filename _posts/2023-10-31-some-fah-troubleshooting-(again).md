@@ -20,7 +20,7 @@ Apparently Ubuntu did not want to recognize .so-file in the file system any long
 error while loading shared libraries: libOpenCL.so.1: cannot open shared object file: No such file or directory
 ```
 
-![image tooltip here](/assets/images/2023-10-31-some-fah-troubleshooting-(again)so_fail.png)
+![image tooltip here](/assets/images/2023-10-31-some-fah-troubleshooting-(again)/so_fail.png)
 
 Not much to go on, is the file there? Yes. Is it valid? Probably. Did I change anything? Nope.
 
@@ -37,10 +37,10 @@ sudo apt install ocl-icd-opencl-dev
 
 Well, looks like we are happy again!
 
-![image tooltip here](/assets/images/2023-10-31-some-fah-troubleshooting-(again)fah_happy.png)
+![image tooltip here](/assets/images/2023-10-31-some-fah-troubleshooting-(again)/fah_happy.png)
 
 Really really happy!
 
-![image tooltip here](/assets/images/2023-10-31-some-fah-troubleshooting-(again)fah_gpustat.png)
+![image tooltip here](/assets/images/2023-10-31-some-fah-troubleshooting-(again)/fah_gpustat.png)
 
 But I truly need to look into monitoring F@h jobs, maybe via healtchecks.io or similar. Anyway, until then, cheers!
