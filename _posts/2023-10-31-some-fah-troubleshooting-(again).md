@@ -8,7 +8,7 @@ comments: true
 
 # Intro
 
-So many friggin problems running F@h, everything from Ubuntu auto-updating the Nvidia drivers, to regular power outages and work serves turning up unavailable. Puh....
+So many friggin problems running F@h, everything from Ubuntu auto-updating the Nvidia drivers, to regular power outages and work servers turning up unavailable. Puh....
 
 Of course I randomly checked it today and it turns out it's been missing work for the past 24h, (I really really need to hook up some sort of scripted monitor looking for strings in the fahlog.txt or maybe just change detection on a F@h scoring site?)
 
@@ -16,8 +16,8 @@ Of course I randomly checked it today and it turns out it's been missing work fo
 
 Apparently Ubuntu did not want to recognize .so-file in the file system any longer, why? I dunno...
 
-```
-error while loading shared libraries: libOpenCL.so.1: cannot open shared object file: No such file or directory
+```console
+[...]libOpenCL.so.1: cannot open shared object file: No such file or directory
 ```
 
 ![image tooltip here](/assets/images/2023-10-31-some-fah-troubleshooting-(again)/so_fail.PNG)
@@ -28,7 +28,7 @@ Sigh...
 
 Some 5 minute googling heroics later I only needed to update apt and reinstall some-something.
 
-```
+```bash
 sudo apt update
 sudo apt install ocl-icd-opencl-dev
 ```
