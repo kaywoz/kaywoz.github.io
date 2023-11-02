@@ -1,5 +1,5 @@
 ---
-title: trouble in paradise (pt1) or the XO drive space problem.
+title: trouble in paradise (pt2) or the XO drive space problem.
 date: 2023-11-02 08:01:00 +0100
 categories: [homelab]
 tags: [homelab,software,xcp-ng,xoa,troubleshooting,netdata]     # TAG names should always be lowercase
