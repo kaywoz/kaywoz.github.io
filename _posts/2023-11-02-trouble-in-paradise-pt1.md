@@ -1,5 +1,5 @@
 ---
-title: trouble in paradise again (pt1), or the XO drive space problem.
+title: trouble in paradise (pt1) or the XO drive space problem.
 date: 2023-11-02 08:01:00 +0100
 categories: [homelab]
 tags: [homelab,software,xcp-ng,xoa,troubleshooting,netdata]     # TAG names should always be lowercase
@@ -17,7 +17,7 @@ Time to pull out some old school sysadmin skills for this one, not much to it.
 
 # The problem.
 
-Well, how do you expand the XO drive when you are managing the XCP-NG installation from the same VM? Can't exand drive, shutdown and restart (you probably can but I was not taking any chances, KISS-principle remember?)
+Well, how do you expand the XO drive when you are managing the XCP-NG installation from the same VM? Can't expand drive, shutdown and restart (you probably can shutdown, log in to the XCP-NG host and use XAPI to resize the disk bla bla, but I was not taking any chances, KISS-principle remember?)
 
 The easiest way to manage it is to have a secondary XO, maybe even the official appliance (for when you really really break stuff in the lab) 
 

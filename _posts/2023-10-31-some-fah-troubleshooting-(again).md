@@ -1,8 +1,8 @@
 ---
-title: some F@h troubleshooting again.
+title: trouble in paradise (pt0) or the f@h lib-problem from nowhere.
 date: 2023-10-31 08:01:00 +0100
 categories: [homelab]
-tags: [homelab,hardware,software,folding,supercomputing,distributed computing]     # TAG names should always be lowercase
+tags: [homelab,hardware,software,folding,supercomputing,distributed computing,troubleshooting]     # TAG names should always be lowercase
 comments: true
 ---
 
