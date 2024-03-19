@@ -1,4 +1,4 @@
-name: "Build and Deploy kaywozplayz.krypi.net "
+name: "build/deploy kaywozplayz.krypi.net "
 on:
   push:
     branches:
