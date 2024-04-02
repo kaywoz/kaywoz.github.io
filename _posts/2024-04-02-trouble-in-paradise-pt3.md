@@ -36,7 +36,7 @@ Yes, so first I thought that the token maybe had expired (eventhough the state w
 
 Anyway, it was as easy as changing the email in the token to the current one, so that it mapped correctly when authenticating...
 
-https://imgflip.com/i/8latcx
+![löl](https://i.imgflip.com/8latcx.jpg)
 
 # What now?
 
