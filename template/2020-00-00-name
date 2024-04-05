@@ -1,0 +1,16 @@
+---
+title: Some title
+date: 2024-01-05 08:01:00 +0100
+categories: [homelab]
+tags: [homelab,software,troubleshooting, edr, vendors ]     # TAG names should always be lowercase 123
+comments: true
+---
+
+# heading
+
+text
+
+* text
+
+
+![pic comment](/assets/images/2023-10-31-a-pic/apic.png)
