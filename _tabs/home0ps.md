@@ -5,15 +5,14 @@ order: 2
 ---
 
 ## The state of home0ps, always a project in progress
-
-"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
-
-![pic comment](/assets/draw.io/1.svg)
-
 <html>
 	<head>
 	</head>
 	<body>
-		<iframe style="width:100%; height:120%; border:0" scrolling="no" src="https://status.krypi.net/">Internet</iframe>
+		<iframe src="https://status.krypi.net/" style="position:fixed; top:0; left:0; bottom:0; right:0; width:100%; height:100%; border:none; margin:0; padding:0; overflow:hidden; z-index:999999;">
+    Your browser doesn't support iframes
+		</iframe>
 	</body>
 </html>
+
+
