@@ -10,5 +10,10 @@ order: 2
 
 ![pic comment](/assets/draw.io/1.svg)
 
-test
-<iframe src="https://status.krypi.net/"></iframe>
+<html>
+	<head>
+	</head>
+	<body>
+		<iframe style="width:100%; height:120%; border:0" scrolling="no" src="https://status.krypi.net/">Internet</iframe>
+	</body>
+</html>
