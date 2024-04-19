@@ -52,8 +52,8 @@ The user is supposed to reset the Viewer from the start, fine. I did, and still 
 
 # Closing thoughts
 
-It's not cheap, but it solves my immediate problems and frustrations now (hey look an XCP-NG console with no hands!!! ![xcp-ng](/assets/images/2024-04-19-unsatisfactory-hardware-gah-review-pt1/9.png))
-
- But there is no smooth setup, it does not play well with my overall methodology and more or less irritates me... 
+It's not cheap, but it solves my immediate problems and frustrations now (hey look an XCP-NG console with no hands!!!) ![xcp-ng](/assets/images/2024-04-19-unsatisfactory-hardware-gah-review-pt1/9.png)
+ 
+ But it's no smooth setup, it does not play well with my overall methodology and more or less irritates me... 
 
 2.5/5 - would not buy again.
