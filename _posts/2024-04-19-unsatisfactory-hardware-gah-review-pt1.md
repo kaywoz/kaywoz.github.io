@@ -22,7 +22,7 @@ Barely any accessories, ![accessories](/assets/images/2024-04-19-unsatisfactory-
 
 And, yes, it's really small; ![size](/assets/images/2024-04-19-unsatisfactory-hardware-gah-review-pt1/3.jpg)
 
-It fits snug as a bug on the backside of my PN51 XCP-NG installation; ![size2](/assets/images/2024-04-19-unsatisfactory-hardware-gah-review-pt1/3.jpg)
+It fits snug as a bug on the backside of my PN51 XCP-NG installation; ![size2](/assets/images/2024-04-19-unsatisfactory-hardware-gah-review-pt1/4.jpg)
 
 But then of course, cue the....FRUSTRATIONS. One thing I truly hate are consumer products which are;1.missing documentation.2.have incorrect documentation.3.have process flows which are illogical.4.do not function in a basic way, as one would expect from similar products.
 
