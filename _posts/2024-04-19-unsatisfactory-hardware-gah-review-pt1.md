@@ -18,5 +18,9 @@ So I found the [Aurga Viewer](https://www.aurga.com/), an hdmi hotspot device fo
 
 Well, to start with it's small, ![aurga viewer](/assets/images/2024-04-19-unsatisfactory-hardware-gah-review-pt1/1.jpg) but that's to be expected as it only needs the hdmi-port and usb for power.
 
+Barely any accessories; ![accessories](/assets/images/2024-04-19-unsatisfactory-hardware-review-pt1/2.jpg) 
 
+And, yes, it's really small; ![size](/assets/images/2024-04-19-unsatisfactory-hardware-review-pt1/3.jpg)
+
+It fits snug as a bug on the backside of my PN51 XCP-NG installation; ![size2](/assets/images/2024-04-19-unsatisfactory-hardware-review-pt1/3.jpg)
 
