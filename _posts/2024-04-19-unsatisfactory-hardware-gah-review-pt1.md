@@ -38,7 +38,9 @@ The user is supposed to reset the Viewer from the start, fine. I did, and still 
 
  *but what does the red LED mean? it's still not documented* 
  
- Oh, wait, but it is. There is an unofficial real manual [real manual?](https://cdn.shopify.com/s/files/1/0627/4659/1401/files/AurgaOperationManual.pdf?v=1678785117) apparently *shudders* .
+ Oh, wait, but it is. There is an unofficial real manual [real manual?](https://cdn.shopify.com/s/files/1/0627/4659/1401/files/AurgaOperationManual.pdf?v=1678785117) apparently.
+ 
+ Do you feel it? Do you feel the *shudders?*.
 
  So, after some initial frustrations, the Viewer tested and working I added a password. And nah, you cant press enter here ![here](/assets/images/2024-04-19-unsatisfactory-hardware-gah-review-pt1/8.png) you need to... press the right arrow. Because you want to go right, forward in the process.... like what? But ok, I guess I can live with that irritant.
 
