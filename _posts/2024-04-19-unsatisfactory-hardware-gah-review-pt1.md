@@ -36,7 +36,7 @@ Case in point;
 
 The user is supposed to reset the Viewer from the start, fine. I did, and still had a *blinking* red LED. Only a solid red LED is described. Now, granted, this is apparently due to how both my ASUS PN5x-nodes sleep their screens, or just pause the screen signal, so a newly plugged in hdmi device does not pick up the signal.
 
- *but what does the red LED mean? it's still not documented* 
+ *but what does the red LED mean? it's still not documented.*
  
  Oh, wait, but it is. There is an unofficial real manual [real manual?](https://cdn.shopify.com/s/files/1/0627/4659/1401/files/AurgaOperationManual.pdf?v=1678785117) apparently.
  
@@ -52,6 +52,8 @@ The user is supposed to reset the Viewer from the start, fine. I did, and still 
 
 # Closing thoughts
 
-It's not cheap, but it solves my immediate problems and frustrations now. But there is no smooth setup, it does not play well with my overall methodology and more or less irritates me... 
+It's not cheap, but it solves my immediate problems and frustrations now (hey look an XCP-NG console with no hands!!! ![xcp-ng](/assets/images/2024-04-19-unsatisfactory-hardware-gah-review-pt1/9.png))
+
+ But there is no smooth setup, it does not play well with my overall methodology and more or less irritates me... 
 
 2.5/5 - would not buy again.
