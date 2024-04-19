@@ -38,7 +38,7 @@ The user is supposed to reset the Viewer from the start, fine. I did, and still 
 
  So, final touches, move the device to the iot-vlan. Done. And check all things work one more time. And.... Nothing. Like, really nothing [nothing](/assets/images/2024-04-19-unsatisfactory-hardware-gah-review-pt1/6.png) My opnsense interfaces get no traffic on the interface.... curious.
 
- But not really, since my laptop seems to do...nothing. Also, really *nothing* [nothing](/assets/images/2024-04-19-unsatisfactory-hardware-gah-review-pt1/5.png) I checked that packet captures on the interface worked just to make sure and sure enough, the HA-installation in the iot-vlan gets traffic from my home vlan.[homevlan](/aassets/images/2024-04-19-unsatisfactory-hardware-gah-review-pt1/7.png) OK, well guess I'll live with that too. Apparently the Viewer application can only connect to ip:s in the host-machines subnet? Since nothing happens when you try to move forward in the connection process, that's my guess.
+ But not really, since my laptop seems to do...nothing. Also, really *nothing* [nothing](/assets/images/2024-04-19-unsatisfactory-hardware-gah-review-pt1/5.png) I checked that packet captures on the interface worked just to make sure and sure enough, the HA-installation in the iot-vlan gets traffic from my home vlan.[homevlan](/assets/images/2024-04-19-unsatisfactory-hardware-gah-review-pt1/7.png) OK, well guess I'll live with that too. Apparently the Viewer application can only connect to ip:s in the host-machines subnet? Since nothing happens when you try to move forward in the connection process, that's my guess.
 
 # Closing thoughts
 
