@@ -48,7 +48,9 @@ The user is supposed to reset the Viewer from the start, fine. I did, and still 
 
  But not really, since my laptop seems to do...nothing. Another kind of *nothing* ![nothing](/assets/images/2024-04-19-unsatisfactory-hardware-gah-review-pt1/5.png) I checked that packet captures on the interface worked just to make sure and sure enough, the HA-installation in the iot-vlan gets traffic from my home vlan. ![homevlan](/assets/images/2024-04-19-unsatisfactory-hardware-gah-review-pt1/7.png) 
  
- OK, well guess I'll live with the fact that I won't be able to reach the Aurga across vlans, I'll just have to move there with my laptop when there is a need. Apparently the Viewer application can only connect to ip:s in the host-machines subnet? Since nothing happens or cann be tracked by wireshark or packet capture when you try to move forward in the connection process, that's my guess.
+ OK, well guess I'll live with the fact that I won't be able to reach the Aurga across vlans, I'll just have to move there with my laptop when there is a need.
+ 
+  Apparently the Viewer application can only connect to ip:s in the host-machines subnet? Since nothing happens or can be tracked by wireshark or packet capture when you try to move forward in the connection process, that's my guess.
 
 # Closing thoughts
 
