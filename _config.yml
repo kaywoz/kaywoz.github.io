@@ -18,10 +18,10 @@ timezone: Europe/Stockholm
 
 title: kayw0z pl4yz # the main title
 
-tagline: where I infodump my thoughts and document my mishaps / B.A/GCWN/GCFE/GCFA/GBFA / DFIR ninja / SOC donkey # it will display as the sub-title
+tagline: where I infodump my thoughts and document my mishaps / CRTO/GCWN/GBFA/GCFA/GCFE/B.A / DFIR ninja / SOC donkey # it will display as the sub-title
 
 description: >- # used by seo meta and the atom feed
-  kayw0z_pl4yz is a docusite for home-lab, cybersecurity, random hardware compute projects and other fun stuff. 
+  kayw0z_pl4yz is a docusite for homelab, cybersecurity, random hardware compute projects and other fun stuff. 
 
 # Fill in the protocol & hostname for your site.
 # e.g. 'https://username.github.io', note that it does not end with a '/'.
