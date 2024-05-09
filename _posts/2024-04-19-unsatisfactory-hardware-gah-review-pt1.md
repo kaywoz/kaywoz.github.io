@@ -12,9 +12,9 @@ Aight, so I finally found somewhat of a solution to a problem I've had for some 
 
 My problem is easier than that, if I break something (something which happens more often than I'd like to admin) I get reeaaaalllly frustrated pulling hdmi-cables from tv-sets to have display for the server and dig out the usb octopus cable connectors for keyboard, usb memory stick, mouse in that order. Cant do it anymore, just so much frustration to deal with. 
 
-So, I've been looking towards the piKVM [piKVM](https://pikvm.org/buy/) product and it's similar siblings, but it's simply to expensive, and yes I like tinkering. But no I dont want to tinker with this and buy hats and accessories and install software etc. I just want it to work, that is ok sometimes too!
+So, I've been looking towards the [piKVM](https://pikvm.org/buy/) product and it's similar siblings, but it's simply to expensive, and yes I like tinkering. But no I dont want to tinker with this and buy hats and accessories and install software etc. I just want it to work, that is ok sometimes too!
 
-So I found the Aurga Viewer [Aurga Viewer](https://www.aurga.com/), an hdmi hotspot device for cheap(er)...
+So I found the Aurga [Aurga Viewer](https://www.aurga.com/) , an hdmi hotspot device for cheap(er)...
 
 # The product
 
@@ -38,7 +38,7 @@ The user is supposed to reset the Viewer from the start, fine. I did, and still 
 
  *but what does the red LED mean? it's still not documented.*
  
- Oh, wait, but it is. There is an unofficial real manual [real manual?](https://cdn.shopify.com/s/files/1/0627/4659/1401/files/AurgaOperationManual.pdf?v=1678785117) apparently.
+ Oh, wait, but it is. There is an unofficial [real manual?](https://cdn.shopify.com/s/files/1/0627/4659/1401/files/AurgaOperationManual.pdf?v=1678785117) apparently.
  
  Do you feel it? Do you feel the *shudders?*.
 
