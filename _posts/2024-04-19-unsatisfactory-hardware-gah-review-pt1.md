@@ -14,7 +14,7 @@ My problem is easier than that, if I break something (something which happens mo
 
 So, I've been looking towards the [piKVM](https://pikvm.org/buy/) product and it's similar siblings, but it's simply to expensive, and yes I like tinkering. But no I dont want to tinker with this and buy hats and accessories and install software etc. I just want it to work, that is ok sometimes too!
 
-So I found the Aurga [Aurga Viewer](https://www.aurga.com/) , an hdmi hotspot device for cheap(er)...
+So I found the [Aurga Viewer](https://www.aurga.com/) , an hdmi hotspot device for cheap(er)...
 
 # The product
 
