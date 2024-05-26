@@ -35,7 +35,7 @@ Apparently not so easy. The web GUI stops listening on the tailscale interface f
 
 As can be seen below, web GUI listens on localhost, the untagged interface, the tagged home interface but nothing more. After the restart, the web GUI listens on the tailscale interface again. Mighty irritating.
 ```	
-	ka@wally-wombat:~ $ sudo sockstat -l4|grep 443
+ka@wally-wombat:~ $ sudo sockstat -l4|grep 443
 Password:
 root     lighttpd   79854 7  tcp4   127.0.0.1:443         *:*
 root     lighttpd   79854 10 tcp4   192.168.1.1:443       *:*
