@@ -3,8 +3,6 @@ title: trouble in paradise (pt1) - the f@h lib problem
 date: 2023-10-31 08:01:00 +0100
 categories: [homelab]
 tags: [homelab,hardware,software,folding,supercomputing,distributed computing,troubleshooting]     # TAG names should always be lowercase
-image:
-  path: /assets/images/2023-10-31-some-fah-troubleshooting-(again)/fah_gpustat.PNG
 comments: true
 ---
 

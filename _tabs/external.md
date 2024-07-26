@@ -1,5 +1,5 @@
 ---
-layout: external
+layout: page
 icon: fas fa-ethernet
 order: 5
 ---
@@ -11,3 +11,6 @@ order: 5
 
  uptimekuma
  <https://uptimekuma-public.krypi.net/status/public1239asd>
+
+ folding at home
+ <https://folding.extremeoverclocking.com/user_summary.php?s=&u=378758>
