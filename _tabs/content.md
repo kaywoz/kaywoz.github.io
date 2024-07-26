@@ -1,7 +1,7 @@
 ---
 # the default layout is 'page'
-icon: fa-solid fa-network-wired
-order: 2
+icon: fas fa-palette
+order: 4
 ---
 
 ## some random content created for krypinet and surrounding projects
