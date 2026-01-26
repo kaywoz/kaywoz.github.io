@@ -25,4 +25,4 @@ As a sidenote, my playthrough gaming channel is live and I update it when I can,
 
 # Closing thoughts
 
-The new lab will be about simplicity and KISS, I don't have the time and patience anymore.
+The new lab will be about simplicity and KISS, I don't have the time and patience anymore. 
