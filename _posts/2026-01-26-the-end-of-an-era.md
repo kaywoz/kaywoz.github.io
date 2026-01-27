@@ -10,9 +10,9 @@ comments: true
 
 # Intro
 
-Have not update for a while but figured I might. Lifestuff and work projects in the way, I think I've rebuild the lab like 6-7 times (get it ;-; )
+Have not update for a while but figured I might. Lifestuff and work projects in the way, I think I've rebuilt the lab like 6-7 times (get it ;-; )
 
-As it stands currently, [last fah](assets/images/2024-04-20-the-crto-journey/1.png), I'm number 2 in the country, sub-200 in the world and have been for the past 18 months. I hade a short stint of being number 1, but then prolle engagaded their quad 3090's I believe, such is life.
+As it stands currently, [last fah](assets/images/2026-01-26-the-end-of-an-era/1.png), I'm number 2 in the country, sub-200 in the world and have been for the past 18 months. I hade a short stint of being number 1, but then prolle engagaded their quad 3090's I believe, such is life.
 
 Bummer I can't find a valid position 1 screenshot but that's that. Bye bye gtx4090, you were awesome, thanks Hostkey!
 
