@@ -83,6 +83,9 @@ img_cdn:
 # the avatar on sidebar, support local or CORS resources
 avatar: /assets/images/avatar/seal1.png
 
+# default image for link previews (og:image / twitter:image) on pages and posts without their own `image`
+social_preview_image: /assets/images/avatar/seal1.png
+
 # boolean type, the global switch for TOC in posts.
 toc: true
 
