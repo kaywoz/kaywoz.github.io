@@ -48,7 +48,8 @@ Every Monday a bot summarizes the week in home0ps and refreshes the README. The 
       a.textContent = (it.title.match(/\((\d{4}-\d{2}-\d{2})\)/) || [, it.title])[1];
       s.append('Week of ', a);
       const body = document.createElement('div');
-      body.innerHTML = it.body_html || '';   // rendered and sanitized by GitHub
+      /* rendered and sanitized by GitHub */
+      body.innerHTML = it.body_html || '';
       d.append(s, body);
       el.append(d);
     });
