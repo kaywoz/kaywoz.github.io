@@ -1,16 +1,32 @@
 name: Ping healthchecks
+# Reports every finished deploy to Healthchecks.io (https://healthchecks.io/docs/http_api/):
+# success -> <ping url>, failed deploy -> <ping url>/fail. Cancelled or skipped runs (e.g. replaced by a
+# newer deploy through the "pages" concurrency group) send nothing, so they can't raise false alarms.
 on:
   workflow_run:
     workflows: ['build and deploy kaywozplayz.krypi.net']
     types: [completed]
+
+permissions: {}
+
 jobs:
-  Ping-Success:
+  ping:
     runs-on: ubuntu-latest
-    if: ${{ github.event.workflow_run.conclusion == 'success' }}
+    timeout-minutes: 5
     steps:
-      - run: curl -m 10 --retry 5 ${{ secrets.PING_URL }}
-  Ping-Failure:
-    runs-on: ubuntu-latest
-    if: ${{ github.event.workflow_run.conclusion == 'failure' }}
-    steps:
-      - run: curl -m 10 --retry 5 ${{ secrets.PING_URL }}/fail
+      - name: Ping Healthchecks.io
+        env:
+          PING_URL: ${{ secrets.PING_URL }}          # https://hc-ping.com/<uuid>, kept out of the public repo
+          CONCLUSION: ${{ github.event.workflow_run.conclusion }}
+          RUN_URL: ${{ github.event.workflow_run.html_url }}
+        run: |
+          case "$CONCLUSION" in
+            success) SUFFIX="" ;;
+            failure|timed_out|startup_failure|action_required) SUFFIX="/fail" ;;
+            *) echo "deploy $CONCLUSION: no ping"; exit 0 ;;
+          esac
+          # Healthchecks' recommended flags: -f fail on HTTP errors, -sS quiet but show errors,
+          # -m 10 max 10 s per try, --retry 5 retry transient errors; the body ends up in the ping log.
+          curl -fsS -m 10 --retry 5 -o /dev/null \
+            --data-raw "deploy $CONCLUSION: $RUN_URL" \
+            "${PING_URL%/}${SUFFIX}"
