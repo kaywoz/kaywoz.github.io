@@ -38,8 +38,17 @@ Every Monday a bot summarizes the week in home0ps and refreshes the README. The 
       a.textContent = (it.title.match(/\((\d{4}-\d{2}-\d{2})\)/) || [, it.title])[1];
       s.append('Week of ', a);
       const body = document.createElement('div');
-      /* rendered and sanitized by GitHub */
-      body.innerHTML = it.body_html || '';
+      /* rendered and sanitized by GitHub; keep only the "Summary of the week" section */
+      const tmp = document.createElement('div');
+      tmp.innerHTML = it.body_html || '';
+      const isH2 = (n) => n && (n.tagName === "H2" || (n.classList.contains("markdown-heading") && n.querySelector("h2")));
+      const start = [...tmp.children].find((n) => isH2(n) && /summary of the week/i.test(n.textContent));
+      if (start) {
+        let node = start.nextElementSibling;
+        while (node && !isH2(node)) { const next = node.nextElementSibling; body.append(node); node = next; }
+      } else {
+        body.append(...tmp.childNodes);
+      }
       d.append(s, body);
       el.append(d);
     });
