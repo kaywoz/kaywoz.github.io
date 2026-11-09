@@ -1,7 +1,7 @@
 ---
 # the default layout is 'page'
 icon: fas fa-info-circle
-order: 4
+order: 6
 ---
 
 Heya! My name is ka, and I'm a home-labbing, cybersecurity dabbling, technical professional.
