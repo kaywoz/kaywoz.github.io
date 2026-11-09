@@ -3,6 +3,8 @@ title: rclone + put.io on a headless NAS, four errors deep
 date: 2026-11-09 21:00:00 +0100
 categories: [homelab]
 tags: [homelab,rclone,oauth,troubleshooting,automated]     # TAG names should always be lowercase
+image:
+  path: /assets/images/2026-11-09-rclone-putio-on-a-headless-nas/1.png
 comments: true
 ---
 
@@ -31,6 +33,8 @@ read -rs S && rclone authorize "putio" <client_id> "$S" -vv; unset S
 `read -s` keeps the secret off the screen and out of shell history. `-vv` prints the exact sign-in URL, which is handy for checking `client_id` and `redirect_uri`.
 
 # 2. The "Authorize application" button just spins
+
+![put.io authorize button spinning](/assets/images/2026-11-09-rclone-putio-on-a-headless-nas/1.png)
 
 Next round: log in, click authorize, and the button spins forever. put.io had approved the app (the authorization even showed up in my account), and it redirected the browser to `http://localhost:53682/?state=…&code=…`. That request just never finished.
 
