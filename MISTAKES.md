@@ -50,3 +50,11 @@ Keep entries short and specific. The goal is a checklist that prevents repeat mi
 - **Fix applied:** `<img width="100%" style="width:100%;height:auto">` in a block-level link.
 - **Rule going forward:** external SVGs get an explicit width; check every changed page on the live site after the deploy, before reporting it done.
 
+
+### 2026-11-09 — config (preview image hook)
+
+- **Trigger:** duplicate output after deploy
+- **What happened:** `_includes/metadata-hook.html` was added to emit `og:image` / `twitter:image` from `social_preview_image`, because Chirpy "6.2" supposedly didn't support it. Live pages then had both tags twice.
+- **Root cause:** the theme's source was checked at tag `v6.2.3`, but the Gemfile's `~> 6.2` resolves to a newer 6.x at build time, which already supports `social_preview_image`.
+- **Fix applied:** hook removed; the config key alone does the job.
+- **Rule going forward:** check theme/plugin behaviour against the version the build actually installs (the CI log's `Installing jekyll-theme-chirpy x.y.z`), not the Gemfile's lower bound.
