@@ -41,3 +41,12 @@ Keep entries short and specific. The goal is a checklist that prevents repeat mi
 - **Root cause:** Chirpy compresses the HTML onto one line, so a `//` comment in the inline script commented out everything after it. The page wasn't checked live before handing over.
 - **Fix applied:** `/* */` comment instead.
 - **Rule going forward:** inline scripts in pages and posts use `/* */` comments only and end every statement with `;`; check them with `node --check` on a one-line copy before pushing.
+
+### 2026-11-09 — tabs (d2 diagram size)
+
+- **Trigger:** broken page after deploy
+- **What happened:** the d2 diagram on the home0ps tab rendered at 0×0 and didn't show.
+- **Root cause:** the d2 SVG has only a `viewBox`, no `width`/`height`, and sat lazy-loaded inside an inline link. Not checked live before handing over.
+- **Fix applied:** `<img width="100%" style="width:100%;height:auto">` in a block-level link.
+- **Rule going forward:** external SVGs get an explicit width; check every changed page on the live site after the deploy, before reporting it done.
+
