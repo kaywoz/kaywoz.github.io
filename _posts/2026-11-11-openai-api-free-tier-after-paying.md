@@ -76,6 +76,9 @@ Me: "is this escalated?"
 
 The void: ...
 
+![me, refreshing the escalated chat for the fifth time](/assets/images/2026-11-11-openai-api-free-tier-after-paying/angry.jpg){: w="500" }
+_Live footage of me waiting "in the coming days"._
+
 ## Round 5 - new chat, same movie
 
 So I started over and pasted all the evidence up front. Same refresh, same "right org?", same Upgrade-tier routine.
