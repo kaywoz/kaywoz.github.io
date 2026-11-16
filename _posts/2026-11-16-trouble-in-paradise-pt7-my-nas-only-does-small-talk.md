@@ -40,7 +40,7 @@ One burst of packets, a few thousand retransmits, then **nothing**. For 28 secon
 
 What followed was a weekend of very confident theories:
 
-* **"The library keeps disappearing."** True, but unrelated. MOS runs from RAM, and its `apt-get` is a wrapper that brings back the packages you named at boot, but not their dependencies. So `iperf3` survives a reboot, `libiperf0` doesn't. Fun, but not it.
+* **"The library keeps disappearing."** True, but unrelated. MOS runs from RAM, and its `apt-get` is a wrapper that brings back the packages you named at boot, but not their dependencies. So `iperf3` does not survive a reboot, nor `libiperf0`. Fun, but not it.
 * **"The NIC changed its name."** Also true! `eth0` when the USB 5G adapter is unplugged, `eth1` when it's plugged in. Also not it.
 * **"It's a hard hang."** Ctrl-Alt-Del worked and the box shut down cleanly. Not a hard hang.
 * **"It's jumbo frames."** MTU 1500.
