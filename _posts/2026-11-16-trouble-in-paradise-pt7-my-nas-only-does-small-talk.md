@@ -3,12 +3,18 @@ title: trouble in paradise (pt7) - my nas only does small talk
 date: 2026-11-16 12:00:00 +0100
 categories: [homelab]
 tags: [homelab,troubleshooting,networking,nas,realtek,mos,automated]     # TAG names should always be lowercase
+image:
+  path: /assets/images/2026-11-16-trouble-in-paradise-pt7-my-nas-only-does-small-talk/hero.jpg
+  alt: four nvme drives with heatsinks bigger than the nas itself
 comments: true
 ---
 
 # Intro
 
 New toy on the desk: a 4-bay all-NVMe NAS with **5GbE** onboard. The plan was to replace my current storage box, so I wrote a proper weekend test plan. Disk speeds, thermals, network, the works. Boring stuff, ticking boxes, Saturday done.
+
+![four nvme drives in a row, each wearing a heatsink like a tiny radiator](/assets/images/2026-11-16-trouble-in-paradise-pt7-my-nas-only-does-small-talk/inside-nvme.jpg){: w="700" }
+_Four NVMe slots. Two of them fast, two of them... less so. More on that some other day._
 
 Disks? Fine. CPU under 45 minutes of stress? 74°C, zero throttling. Network, single stream? 2.35 Gbit/s to my 2.5G test box, zero retransmits.
 
@@ -24,11 +30,8 @@ Then I ran iperf3 with **four** streams.
 
 M'ok.
 
-{% comment %}
-image goes here, e.g.:
-![a nas sitting in a corner, refusing to talk](/assets/images/2026-11-16-trouble-in-paradise-pt7-my-nas-only-does-small-talk/silence.png){: w="600" }
-_The NAS, after four TCP streams._
-{% endcomment %}
+![the nas with its lid off, one lonely ram stick and a big passive heatsink](/assets/images/2026-11-16-trouble-in-paradise-pt7-my-nas-only-does-small-talk/inside-board.jpg){: w="700" }
+_Lid off. Nothing on fire. Nothing obviously wrong. Hmm._
 
 # The problem.
 
