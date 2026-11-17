@@ -58,3 +58,11 @@ Keep entries short and specific. The goal is a checklist that prevents repeat mi
 - **Root cause:** the theme's source was checked at tag `v6.2.3`, but the Gemfile's `~> 6.2` resolves to a newer 6.x at build time, which already supports `social_preview_image`.
 - **Fix applied:** hook removed; the config key alone does the job.
 - **Rule going forward:** check theme/plugin behaviour against the version the build actually installs (the CI log's `Installing jekyll-theme-chirpy x.y.z`), not the Gemfile's lower bound.
+
+### 2026-11-17 — posts (live check before deploy)
+
+- **Trigger:** broken page after deploy
+- **What happened:** the live check of `2026-11-17-trouble-in-paradise-pt8-root-but-not-really.md` ran while the Pages deploy was still in progress. The CDN cached the 404s for the page and the image, so the image still showed as broken for about 2.5 min after the deploy, and in the browser until a forced reload.
+- **Root cause:** live URLs were requested before the deploy run had finished.
+- **Fix applied:** waited for the cached 404 to expire, reloaded, checked the page, both images and the links.
+- **Rule going forward:** wait for the `main` deploy run to finish (`gh run watch --exit-status`) before requesting any live URL of a new post or asset.
