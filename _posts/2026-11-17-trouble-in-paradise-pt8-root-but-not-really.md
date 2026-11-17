@@ -3,6 +3,9 @@ title: trouble in paradise (pt8) - root, but not really
 date: 2026-11-17 18:00:00 +0100
 categories: [homelab]
 tags: [homelab,docker,security,nas,mos,automated]     # TAG names should always be lowercase
+image:
+  path: /assets/images/2026-11-17-trouble-in-paradise-pt8-root-but-not-really/root-but-not-really.png
+  alt: a stick figure wearing a crown in a container, and the same stick figure on the host with a name tag and no crown
 comments: true
 ---
 
@@ -12,7 +15,10 @@ Same new NAS as [last time](/posts/trouble-in-paradise-pt7-my-nas-only-does-smal
 
 Short version for the non-Docker people: by default, `root` inside a container is `root` on the host. Same uid 0. The container is fenced in by namespaces and capabilities, but if something breaks out, it breaks out as root. On a box that holds every backup I own, that's not a nice thought.
 
-`userns-remap` fixes that. Container uid 0 becomes some boring high uid on the host, like 165536, that owns nothing. Break out, and you're nobody. One line in `/etc/docker/daemon.json`:
+`userns-remap` fixes that. Container uid 0 becomes some boring high uid on the host, like 165536, that owns nothing. Break out, and you're nobody. ![root in the container, a nobody with a name tag on the host](/assets/images/2026-11-17-trouble-in-paradise-pt8-root-but-not-really/root-but-not-really.png){: w="700" }
+_The crown doesn't survive the trip to the host._
+
+One line in `/etc/docker/daemon.json`:
 
 ```json
 { "userns-remap": "dockremap" }
